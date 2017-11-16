@@ -1,0 +1,53 @@
+PODS:
+  - SwiftFixes (1.4.3.1)
+  - SwiftLint (0.24.0)
+  - TapAdditionsKit/Foundation/DateFormatter (1.0.40)
+  - TapAdditionsKit/Foundation/Locale (1.0.40)
+  - TapAdditionsKit/Foundation/NumberFormatter (1.0.40)
+  - TapAdditionsKit/ObjectiveC/NSObject (1.0.40)
+  - TapAdditionsKit/SwiftStandartLibrary/Dictionary (1.0.40)
+  - TapAdditionsKit/SwiftStandartLibrary/Int (1.0.40)
+  - TapAdditionsKit/SwiftStandartLibrary/String (1.0.40):
+    - TapAdditionsKit/Foundation/Locale
+    - TapAdditionsKit/Foundation/NumberFormatter
+    - TapAdditionsKit/SwiftStandartLibrary/Int
+  - TapAdditionsKit/UIKit/UIViewController (1.0.40):
+    - TapAdditionsKit/ObjectiveC/NSObject
+    - TapAdditionsKit/UIKit/UIWindow
+    - TapAdditionsKit/UIKit/UIWindowLevel
+  - TapAdditionsKit/UIKit/UIWindow (1.0.40):
+    - TapAdditionsKit/UIKit/UIWindowLevel
+  - TapAdditionsKit/UIKit/UIWindowLevel (1.0.40)
+  - TapApplication (1.0.1):
+    - SwiftFixes
+    - TapAdditionsKit/SwiftStandartLibrary/String
+    - TapAdditionsKit/UIKit/UIViewController
+  - TapDatabase (1.0.5):
+    - TapAdditionsKit/SwiftStandartLibrary/Dictionary
+  - TapFlagsKit (1.0)
+  - TapLogger (1.0):
+    - TapAdditionsKit/Foundation/DateFormatter
+    - TapAdditionsKit/Foundation/Locale
+    - TapAdditionsKit/SwiftStandartLibrary/String
+
+DEPENDENCIES:
+  - SwiftFixes
+  - SwiftLint
+  - TapAdditionsKit/Foundation/NumberFormatter
+  - TapApplication
+  - TapDatabase
+  - TapFlagsKit
+  - TapLogger
+
+SPEC CHECKSUMS:
+  SwiftFixes: e4e66a9a718087124a204b89cc39339a27500f13
+  SwiftLint: a014c92b4664e8b13f380f8640a51bb1733778ba
+  TapAdditionsKit: b21e9e8b7f90663fab60827f4a41d2ae60a4f817
+  TapApplication: 390adf79c8bc66d7172eb780213af49c949c59e2
+  TapDatabase: 24ee7185e9adc2d482ad7af90aaa7ede611c5d5d
+  TapFlagsKit: a8a62b0b97f90f4163357e9fb89499410aa7038d
+  TapLogger: f5e7cd3687a489576bb4b50e591375537687f71f
+
+PODFILE CHECKSUM: 1fe315254d6ce54b23a826d914a2ca664e4d8c3b
+
+COCOAPODS: 1.3.1
