@@ -132,7 +132,7 @@ public class LocalizationManager {
     ///
     /// - Parameter language: Language
     /// - Returns: Icon.
-    internal func icon(for language: String) -> UIImage? {
+    public func icon(for language: String) -> UIImage? {
 
         #if TARGET_INTERFACE_BUILDER
 
