@@ -12,6 +12,7 @@ import class TapDatabase.TapDatabase
 import protocol TapDatabase.TapDatabaseObserver
 import class TapFlagsKit.TapFlagsKit
 import func TapLogger.DebugLog
+import class UIKit.UIImage.UIImage
 
 /// Localization Manager class.
 public class LocalizationManager {
@@ -49,12 +50,12 @@ public class LocalizationManager {
             self.updateBundle()
 
             self.datasource.userDefaultsLanguage = self.currentLanguage
-            
+
             if #available(iOS 9.0, *) {
-                
+
                 self.datasource.application.updateLayoutDirection()
             }
-            
+
             if lastDirection != self.datasource.application.layoutDirection {
 
                 NotificationCenter.default.post(name: .layoutDirectionChanged, object: nil)
@@ -216,7 +217,6 @@ public class LocalizationManager {
     /// Setup Firebase
     private func setupFirebase() {
 
-        TapDatabase.shared.isPersistenceEnabled = true
         TapDatabase.shared.addObserver(self)
     }
 
