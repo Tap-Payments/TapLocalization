@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		80854A629AD994EEDB467368 /* Pods_TapLocalization.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A652FF48C91630DD716F3109 /* Pods_TapLocalization.framework */; };
 		A4624A851FBDC04100835419 /* TapLocalization.h in Headers */ = {isa = PBXBuildFile; fileRef = A4624A831FBDC04000835419 /* TapLocalization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4624A8D1FBDC0E500835419 /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4624A8C1FBDC0E500835419 /* LocalizationManager.swift */; };
-		A4624A8F1FBDEA7400835419 /* Notification.Name+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4624A8E1FBDEA7400835419 /* Notification.Name+Additions.swift */; };
-		A4624A911FBDEE8A00835419 /* LocalizationManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4624A901FBDEE8A00835419 /* LocalizationManagerDataSource.swift */; };
-		A4624A931FBE054000835419 /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4624A921FBE054000835419 /* Localization.swift */; };
-		A4624A951FBE063800835419 /* LocalizationManager+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4624A941FBE063800835419 /* LocalizationManager+Currency.swift */; };
 		A4624AB61FBE4A6A00835419 /* TapLocalization.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A4624AB51FBE4A6900835419 /* TapLocalization.podspec */; };
+		A470718E1FD5729F00AE223D /* LocalizationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47071891FD5729F00AE223D /* LocalizationManager.swift */; };
+		A470718F1FD5729F00AE223D /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470718A1FD5729F00AE223D /* Localization.swift */; };
+		A47071901FD5729F00AE223D /* LocalizationManager+Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470718B1FD5729F00AE223D /* LocalizationManager+Currency.swift */; };
+		A47071911FD5729F00AE223D /* LocalizationManagerDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A470718C1FD5729F00AE223D /* LocalizationManagerDataSource.swift */; };
+		A47071981FD574A100AE223D /* Notification.Name+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A47071971FD574A100AE223D /* Notification.Name+Additions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,12 +23,12 @@
 		A4624A801FBDC04000835419 /* TapLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TapLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4624A831FBDC04000835419 /* TapLocalization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TapLocalization.h; sourceTree = "<group>"; };
 		A4624A841FBDC04100835419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A4624A8C1FBDC0E500835419 /* LocalizationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
-		A4624A8E1FBDEA7400835419 /* Notification.Name+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Additions.swift"; sourceTree = "<group>"; };
-		A4624A901FBDEE8A00835419 /* LocalizationManagerDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationManagerDataSource.swift; sourceTree = "<group>"; };
-		A4624A921FBE054000835419 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
-		A4624A941FBE063800835419 /* LocalizationManager+Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LocalizationManager+Currency.swift"; sourceTree = "<group>"; };
 		A4624AB51FBE4A6900835419 /* TapLocalization.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TapLocalization.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47071891FD5729F00AE223D /* LocalizationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManager.swift; sourceTree = "<group>"; };
+		A470718A1FD5729F00AE223D /* Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		A470718B1FD5729F00AE223D /* LocalizationManager+Currency.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LocalizationManager+Currency.swift"; sourceTree = "<group>"; };
+		A470718C1FD5729F00AE223D /* LocalizationManagerDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationManagerDataSource.swift; sourceTree = "<group>"; };
+		A47071971FD574A100AE223D /* Notification.Name+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Notification.Name+Additions.swift"; sourceTree = "<group>"; };
 		A652FF48C91630DD716F3109 /* Pods_TapLocalization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TapLocalization.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,13 +93,29 @@
 		A4624A8B1FBDC0D700835419 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A4624A921FBE054000835419 /* Localization.swift */,
-				A4624A8C1FBDC0E500835419 /* LocalizationManager.swift */,
-				A4624A941FBE063800835419 /* LocalizationManager+Currency.swift */,
-				A4624A901FBDEE8A00835419 /* LocalizationManagerDataSource.swift */,
-				A4624A8E1FBDEA7400835419 /* Notification.Name+Additions.swift */,
+				A47071961FD5747700AE223D /* Notifications */,
+				A47071881FD5727D00AE223D /* Core */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		A47071881FD5727D00AE223D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A470718A1FD5729F00AE223D /* Localization.swift */,
+				A47071891FD5729F00AE223D /* LocalizationManager.swift */,
+				A470718B1FD5729F00AE223D /* LocalizationManager+Currency.swift */,
+				A470718C1FD5729F00AE223D /* LocalizationManagerDataSource.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		A47071961FD5747700AE223D /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				A47071971FD574A100AE223D /* Notification.Name+Additions.swift */,
+			);
+			path = Notifications;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,11 +252,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4624A8D1FBDC0E500835419 /* LocalizationManager.swift in Sources */,
-				A4624A911FBDEE8A00835419 /* LocalizationManagerDataSource.swift in Sources */,
-				A4624A931FBE054000835419 /* Localization.swift in Sources */,
-				A4624A8F1FBDEA7400835419 /* Notification.Name+Additions.swift in Sources */,
-				A4624A951FBE063800835419 /* LocalizationManager+Currency.swift in Sources */,
+				A470718E1FD5729F00AE223D /* LocalizationManager.swift in Sources */,
+				A47071911FD5729F00AE223D /* LocalizationManagerDataSource.swift in Sources */,
+				A470718F1FD5729F00AE223D /* Localization.swift in Sources */,
+				A47071901FD5729F00AE223D /* LocalizationManager+Currency.swift in Sources */,
+				A47071981FD574A100AE223D /* Notification.Name+Additions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

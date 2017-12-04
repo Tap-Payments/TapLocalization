@@ -24,3 +24,9 @@ public extension Notification.Name {
     /// Notification name to handle supported languages list change.
     public static let supportedLanguagesListChanged = Notification.Name("TapSupportedLanguagesListChanged")
 }
+
+/// Top level constants to avoid import of the whole module.
+
+public let tapLayoutDirectionChangedNotificationName: Notification.Name = .layoutDirectionChanged
+public let tapLocalizationChangedNotificationName: Notification.Name = .localizationChanged
+public let tapSupportedLanguagesListChangedNotificationName: Notification.Name = .supportedLanguagesListChanged

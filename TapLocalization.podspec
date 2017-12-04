@@ -6,18 +6,32 @@ Pod::Spec.new do |tapLocalization|
     tapLocalization.name = 'TapLocalization'
     tapLocalization.summary = 'Tap Localization Manager.'
     tapLocalization.requires_arc = true
-    tapLocalization.version = '1.0.2'
+    tapLocalization.version = '1.1'
     tapLocalization.license = { :type => 'MIT', :file => 'LICENSE' }
     tapLocalization.author = { 'Dennis Pashkov' => 'd.pashkov@tap.company' }
     tapLocalization.homepage = 'https://github.com/Tap-Payments/TapLocalization'
     tapLocalization.source = { :git => 'https://github.com/Tap-Payments/TapLocalization.git', :tag => tapLocalization.version.to_s }
-    tapLocalization.source_files = 'TapLocalization/Source/*.swift'
-    tapLocalization.dependency 'SwiftFixes'
-    tapLocalization.dependency 'TapAdditionsKit/Foundation/Locale'
-    tapLocalization.dependency 'TapAdditionsKit/Foundation/NumberFormatter'
-    tapLocalization.dependency 'TapApplication'
-    tapLocalization.dependency 'TapDatabase'
-    tapLocalization.dependency 'TapFlagsKit'
-    tapLocalization.dependency 'TapLogger'
+    tapLocalization.default_subspecs = 'Core'
+    
+    tapLocalization.subspec 'Core' do |core|
+        
+        core.dependency 'SwiftFixes'
+        core.dependency 'TapAdditionsKit/Foundation/Locale'
+        core.dependency 'TapAdditionsKit/Foundation/NumberFormatter'
+        core.dependency 'TapApplication'
+        core.dependency 'TapDatabase'
+        core.dependency 'TapFlagsKit'
+        core.dependency 'TapLocalization/Notifications'
+        core.dependency 'TapLogger'
+        
+        core.source_files = 'TapLocalization/Source/Core/*.swift'
+        
+    end
+    
+    tapLocalization.subspec 'Notifications' do |notifications|
+    
+        notifications.source_files = 'TapLocalization/Source/Notifications/*.swift'
+    
+    end
     
 end
