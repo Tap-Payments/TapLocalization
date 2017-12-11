@@ -6,7 +6,7 @@ Pod::Spec.new do |tapLocalization|
     tapLocalization.name = 'TapLocalization'
     tapLocalization.summary = 'Tap Localization Manager.'
     tapLocalization.requires_arc = true
-    tapLocalization.version = '1.1.1'
+    tapLocalization.version = '1.1.2'
     tapLocalization.license = { :type => 'MIT', :file => 'LICENSE' }
     tapLocalization.author = { 'Dennis Pashkov' => 'd.pashkov@tap.company' }
     tapLocalization.homepage = 'https://github.com/Tap-Payments/TapLocalization'

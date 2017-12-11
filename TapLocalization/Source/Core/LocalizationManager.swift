@@ -83,6 +83,15 @@ public class LocalizationManager {
 
     // MARK: Methods
 
+    /// Returns flag image name for the given language.
+    ///
+    /// - Parameter language: Language to return flag image name for.
+    /// - Returns: Flag image name.
+    public func flagImageName(for language: String) -> String? {
+
+        return self.languageIcons[language]?.uppercased()
+    }
+
     /// Defines if the given language is right to left.
     ///
     /// - Parameter language: Language to check direction.
