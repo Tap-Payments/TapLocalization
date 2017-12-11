@@ -83,9 +83,9 @@
 		A4624A821FBDC04000835419 /* TapLocalization */ = {
 			isa = PBXGroup;
 			children = (
-				A4624A8B1FBDC0D700835419 /* Source */,
 				A4624A831FBDC04000835419 /* TapLocalization.h */,
 				A4624A841FBDC04100835419 /* Info.plist */,
+				A4624A8B1FBDC0D700835419 /* Source */,
 			);
 			path = TapLocalization;
 			sourceTree = "<group>";
@@ -93,8 +93,8 @@
 		A4624A8B1FBDC0D700835419 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				A47071961FD5747700AE223D /* Notifications */,
 				A47071881FD5727D00AE223D /* Core */,
+				A47071961FD5747700AE223D /* Notifications */,
 			);
 			path = Source;
 			sourceTree = "<group>";

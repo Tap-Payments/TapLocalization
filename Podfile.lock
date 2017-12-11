@@ -1,26 +1,25 @@
 PODS:
   - SwiftFixes (1.4.4)
   - SwiftLint (0.24.0)
-  - TapAdditionsKit/Foundation/Bundle (1.0.44)
-  - TapAdditionsKit/Foundation/DateFormatter (1.0.44)
-  - TapAdditionsKit/Foundation/Locale (1.0.44)
-  - TapAdditionsKit/Foundation/NumberFormatter (1.0.44)
-  - TapAdditionsKit/ObjectiveC/NSObject (1.0.44)
-  - TapAdditionsKit/SwiftStandartLibrary/Dictionary (1.0.44)
-  - TapAdditionsKit/SwiftStandartLibrary/Int (1.0.44)
-  - TapAdditionsKit/SwiftStandartLibrary/String (1.0.44):
+  - TapAdditionsKit/Foundation/DateFormatter (1.0.46)
+  - TapAdditionsKit/Foundation/Locale (1.0.46)
+  - TapAdditionsKit/Foundation/NumberFormatter (1.0.46)
+  - TapAdditionsKit/ObjectiveC/NSObject (1.0.46)
+  - TapAdditionsKit/SwiftStandartLibrary/Dictionary (1.0.46)
+  - TapAdditionsKit/SwiftStandartLibrary/Int (1.0.46)
+  - TapAdditionsKit/SwiftStandartLibrary/String (1.0.46):
     - TapAdditionsKit/Foundation/Locale
     - TapAdditionsKit/Foundation/NumberFormatter
     - TapAdditionsKit/SwiftStandartLibrary/Int
-  - TapAdditionsKit/Tap/TypeAlias (1.0.44)
-  - TapAdditionsKit/UIKit/UIViewController (1.0.44):
+  - TapAdditionsKit/Tap/TypeAlias (1.0.46)
+  - TapAdditionsKit/UIKit/UIViewController (1.0.46):
     - TapAdditionsKit/ObjectiveC/NSObject
     - TapAdditionsKit/Tap/TypeAlias
     - TapAdditionsKit/UIKit/UIWindow
     - TapAdditionsKit/UIKit/UIWindowLevel
-  - TapAdditionsKit/UIKit/UIWindow (1.0.44):
+  - TapAdditionsKit/UIKit/UIWindow (1.0.46):
     - TapAdditionsKit/UIKit/UIWindowLevel
-  - TapAdditionsKit/UIKit/UIWindowLevel (1.0.44)
+  - TapAdditionsKit/UIKit/UIWindowLevel (1.0.46)
   - TapApplication (1.0.3):
     - SwiftFixes
     - TapAdditionsKit/SwiftStandartLibrary/String
@@ -28,8 +27,6 @@ PODS:
     - TapAdditionsKit/UIKit/UIViewController
   - TapDatabase (1.0.5):
     - TapAdditionsKit/SwiftStandartLibrary/Dictionary
-  - TapFlagsKit (1.0.2):
-    - TapAdditionsKit/Foundation/Bundle
   - TapLogger (1.0):
     - TapAdditionsKit/Foundation/DateFormatter
     - TapAdditionsKit/Foundation/Locale
@@ -42,18 +39,16 @@ DEPENDENCIES:
   - TapAdditionsKit/Foundation/NumberFormatter
   - TapApplication
   - TapDatabase
-  - TapFlagsKit
   - TapLogger
 
 SPEC CHECKSUMS:
   SwiftFixes: beb6850f88cff3fb4bca0be0c1c5f430e21207ac
   SwiftLint: a014c92b4664e8b13f380f8640a51bb1733778ba
-  TapAdditionsKit: 24738e21f23b34d08b2644cca34b4d4e88a38768
+  TapAdditionsKit: 28019fed0659e183ad026a4f49fcec511f9840a6
   TapApplication: 5f11469ea2471eb1d3218074d9b60048983205bd
   TapDatabase: 24ee7185e9adc2d482ad7af90aaa7ede611c5d5d
-  TapFlagsKit: 4fad295ed5f790d8538f08ee4de30359c25166b6
   TapLogger: f5e7cd3687a489576bb4b50e591375537687f71f
 
-PODFILE CHECKSUM: b60f5b1fcafe2b7c4f7d1d76ff6c674ec9f9cff8
+PODFILE CHECKSUM: 8eb9c283e050f9920d04eff0b22cb6d44ca32d44
 
 COCOAPODS: 1.3.1

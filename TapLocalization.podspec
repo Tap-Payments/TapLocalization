@@ -6,7 +6,7 @@ Pod::Spec.new do |tapLocalization|
     tapLocalization.name = 'TapLocalization'
     tapLocalization.summary = 'Tap Localization Manager.'
     tapLocalization.requires_arc = true
-    tapLocalization.version = '1.1'
+    tapLocalization.version = '1.1.1'
     tapLocalization.license = { :type => 'MIT', :file => 'LICENSE' }
     tapLocalization.author = { 'Dennis Pashkov' => 'd.pashkov@tap.company' }
     tapLocalization.homepage = 'https://github.com/Tap-Payments/TapLocalization'
@@ -20,7 +20,6 @@ Pod::Spec.new do |tapLocalization|
         core.dependency 'TapAdditionsKit/Foundation/NumberFormatter'
         core.dependency 'TapApplication'
         core.dependency 'TapDatabase'
-        core.dependency 'TapFlagsKit'
         core.dependency 'TapLocalization/Notifications'
         core.dependency 'TapLogger'
         
@@ -33,5 +32,4 @@ Pod::Spec.new do |tapLocalization|
         notifications.source_files = 'TapLocalization/Source/Notifications/*.swift'
     
     end
-    
 end

@@ -12,7 +12,6 @@ target 'TapLocalization' do
   pod 'TapAdditionsKit/Foundation/NumberFormatter'
   pod 'TapApplication'
   pod 'TapDatabase'
-  pod 'TapFlagsKit'
   pod 'TapLogger'
-
+  
 end

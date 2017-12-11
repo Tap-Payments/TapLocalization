@@ -10,9 +10,7 @@ import protocol TapApplication.TapApplication
 import struct TapDatabase.DatabasePath
 import class TapDatabase.TapDatabase
 import protocol TapDatabase.TapDatabaseObserver
-import class TapFlagsKit.TapFlagsKit
 import func TapLogger.DebugLog
-import class UIKit.UIImage.UIImage
 
 /// Localization Manager class.
 public class LocalizationManager {
@@ -127,25 +125,6 @@ public class LocalizationManager {
         }
 
         return self.currentBundle.localizedString(forKey: key, value: key, table: nil)
-    }
-
-    /// Returns language icon.
-    ///
-    /// - Parameter language: Language
-    /// - Returns: Icon.
-    public func icon(for language: String) -> UIImage? {
-
-        #if TARGET_INTERFACE_BUILDER
-
-            return TapFlagsKit.flag(for: Locale.LocaleIdentifier.en)
-
-        #else
-
-            guard let flagName = self.languageIcons[language]?.uppercased() else { return TapFlagsKit.flag(for: Locale.LocaleIdentifier.en) }
-
-            return TapFlagsKit.flag(named: flagName)
-
-        #endif
     }
 
     deinit {
