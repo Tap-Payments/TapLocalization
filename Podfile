@@ -10,7 +10,7 @@ target 'TapLocalization' do
   pod 'SwiftLint'
   pod 'TapAdditionsKit/Foundation/Locale'
   pod 'TapAdditionsKit/Foundation/NumberFormatter'
-  pod 'TapApplication'
+  pod 'TapAdditionsKit/Tap/ClassProtocol'
   pod 'TapDatabase'
   pod 'TapLogger'
   

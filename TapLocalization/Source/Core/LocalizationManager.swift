@@ -6,7 +6,6 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
-import protocol TapApplication.TapApplication
 import struct TapDatabase.DatabasePath
 import class TapDatabase.TapDatabase
 import protocol TapDatabase.TapDatabaseObserver
@@ -42,24 +41,14 @@ public class LocalizationManager {
 
         didSet {
 
-            let lastDirection = self.datasource.application.layoutDirection
-
             self.locale = Locale(identifier: self.currentLanguage)
             self.updateBundle()
 
             self.datasource.userDefaultsLanguage = self.currentLanguage
 
-            if #available(iOS 9.0, *) {
-
-                self.datasource.application.updateLayoutDirection()
-            }
-
-            if lastDirection != self.datasource.application.layoutDirection {
-
-                NotificationCenter.default.post(name: .layoutDirectionChanged, object: nil)
-            }
-
             NotificationCenter.default.post(name: .localizationChanged, object: nil)
+
+            self.checkIfLayoutDirectionChangedAndPostNotification(from: oldValue, to: self.currentLanguage)
         }
     }
 
@@ -237,6 +226,17 @@ public class LocalizationManager {
         }
 
         return Locale.LocaleIdentifier.en
+    }
+
+    private func checkIfLayoutDirectionChangedAndPostNotification(from oldLanguage: String, to newLanguage: String) {
+
+        let lastDirectionIsRTL = self.isLanguageRightToLeft(oldLanguage)
+        let currentDirectionIsRTL = self.isLanguageRightToLeft(newLanguage)
+
+        if lastDirectionIsRTL != currentDirectionIsRTL {
+
+            NotificationCenter.default.post(name: .layoutDirectionChanged, object: nil)
+        }
     }
 }
 

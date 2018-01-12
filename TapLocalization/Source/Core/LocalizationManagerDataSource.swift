@@ -6,15 +6,12 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
-import protocol TapApplication.TapApplication
+import protocol TapAdditionsKit.ClassProtocol
 
 /// Localization manager data source.
-public protocol LocalizationManagerDataSource: class {
+public protocol LocalizationManagerDataSource: ClassProtocol {
 
     // MARK: Properties
-
-    /// Application instance.
-    var application: TapApplication { get }
 
     /// List of initially supported languages (before Firebase list is loaded).
     var initiallySupportedLanguages: [String] { get }
