@@ -8,8 +8,8 @@
 
 import TapAdditionsKit
 
-import func SwiftFixes.synchronized
 import func TapLogger.DebugLog
+import func TapSwiftFixes.synchronized
 
 private var currencyFormatterAssociationKey: UInt8 = 0
 

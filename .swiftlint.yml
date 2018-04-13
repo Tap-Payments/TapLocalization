@@ -6,6 +6,7 @@ disabled_rules:
  - function_body_length
  - line_length
  - statement_position
+ - nesting
 identifier_name:
  min_length:
   warning: 0
