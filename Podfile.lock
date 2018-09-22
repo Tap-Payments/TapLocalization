@@ -1,22 +1,22 @@
 PODS:
-  - SwiftLint (0.25.1)
-  - TapAdditionsKit/Foundation/DateFormatter (1.0)
-  - TapAdditionsKit/Foundation/Locale (1.0)
-  - TapAdditionsKit/Foundation/NumberFormatter (1.0)
-  - TapAdditionsKit/SwiftStandartLibrary/Dictionary (1.0)
-  - TapAdditionsKit/SwiftStandartLibrary/Int (1.0)
-  - TapAdditionsKit/SwiftStandartLibrary/String (1.0):
+  - SwiftLint (0.27.0)
+  - TapAdditionsKit/Foundation/DateFormatter (1.1)
+  - TapAdditionsKit/Foundation/Locale (1.1)
+  - TapAdditionsKit/Foundation/NumberFormatter (1.1)
+  - TapAdditionsKit/SwiftStandartLibrary/Dictionary (1.1)
+  - TapAdditionsKit/SwiftStandartLibrary/Int (1.1)
+  - TapAdditionsKit/SwiftStandartLibrary/String (1.1):
     - TapAdditionsKit/Foundation/Locale
     - TapAdditionsKit/Foundation/NumberFormatter
     - TapAdditionsKit/SwiftStandartLibrary/Int
-  - TapAdditionsKit/Tap/ClassProtocol (1.0)
-  - TapDatabase (1.0.5):
+  - TapAdditionsKit/Tap/ClassProtocol (1.1)
+  - TapDatabase (1.0.6):
     - TapAdditionsKit/SwiftStandartLibrary/Dictionary
-  - TapLogger (1.0):
+  - TapLogger (1.0.1):
     - TapAdditionsKit/Foundation/DateFormatter
     - TapAdditionsKit/Foundation/Locale
     - TapAdditionsKit/SwiftStandartLibrary/String
-  - TapSwiftFixes/Threading (1.0)
+  - TapSwiftFixes/Threading (1.0.5)
 
 DEPENDENCIES:
   - SwiftLint
@@ -28,7 +28,7 @@ DEPENDENCIES:
   - TapSwiftFixes/Threading
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - SwiftLint
     - TapAdditionsKit
     - TapSwiftFixes
@@ -37,12 +37,12 @@ SPEC REPOS:
     - TapLogger
 
 SPEC CHECKSUMS:
-  SwiftLint: ce933681be10c3266e82576dad676fa815a602e9
-  TapAdditionsKit: b95ff324998f470cc9784a237b2ec003625f7890
-  TapDatabase: 24ee7185e9adc2d482ad7af90aaa7ede611c5d5d
-  TapLogger: f5e7cd3687a489576bb4b50e591375537687f71f
-  TapSwiftFixes: 445aea41db6b1486869bf044788a2f881a00e90d
+  SwiftLint: 3207c1faa2240bf8973b191820a116113cd11073
+  TapAdditionsKit: 140a088872313f07b047d803e7fa513a1f8d4f6d
+  TapDatabase: 1d83e778af3c6b1fb28c7aa022b591f0e9215b2e
+  TapLogger: b3c4ce79cf8df32dec46c98c1a65566f05b4fbef
+  TapSwiftFixes: eb367e92bbc62a253f1c6737099e58d926e936b8
 
 PODFILE CHECKSUM: f0956528c29064f13e52aabd0ecfb583473e0a00
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.6.0.beta.1

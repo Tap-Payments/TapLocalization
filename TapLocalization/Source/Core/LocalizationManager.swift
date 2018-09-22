@@ -6,10 +6,10 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
-import struct TapDatabase.DatabasePath
-import class TapDatabase.TapDatabase
+import struct   TapDatabase.DatabasePath
+import class    TapDatabase.TapDatabase
 import protocol TapDatabase.TapDatabaseObserver
-import func TapLogger.DebugLog
+import func     TapLogger.DebugLog
 
 /// Localization Manager class.
 public class LocalizationManager {

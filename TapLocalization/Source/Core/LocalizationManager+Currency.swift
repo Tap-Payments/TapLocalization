@@ -6,10 +6,8 @@
 //  Copyright © 2017 Tap Payments. All rights reserved.
 //
 
-import TapAdditionsKit
-
-import func TapLogger.DebugLog
-import func TapSwiftFixes.synchronized
+import func     TapLogger.DebugLog
+import func     TapSwiftFixes.synchronized
 
 private var currencyFormatterAssociationKey: UInt8 = 0
 
@@ -99,7 +97,7 @@ public extension LocalizationManager {
         }
     }
 
-    public func localizedAmountString(with amount: Decimal, currencyCode: String, amountAttributes: [NSAttributedStringKey: Any?]?, currencyAttributes: [NSAttributedStringKey: Any?]?) -> NSAttributedString {
+    public func localizedAmountString(with amount: Decimal, currencyCode: String, amountAttributes: [NSAttributedString.Key: Any?]?, currencyAttributes: [NSAttributedString.Key: Any?]?) -> NSAttributedString {
 
         let amountString = self.localizedAmountString(with: amount, currencyCode: currencyCode)
         let currencySymbol = self.localizedCurrencySymbol(for: currencyCode)
